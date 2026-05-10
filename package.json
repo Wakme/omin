@@ -1,0 +1,24 @@
+{
+  "name": "omni",
+  "version": "0.1.0",
+  "description": "Local-first Codex daily skill evolution",
+  "type": "module",
+  "main": "dist/index.js",
+  "scripts": {
+    "build": "tsc",
+    "start": "tsx src/index.ts",
+    "dev": "tsx watch src/index.ts",
+    "omni": "tsx src/index.ts",
+    "cli": "tsx src/index.ts"
+  },
+  "dependencies": {
+    "@anthropic-ai/claude-agent-sdk": "^0.2.94",
+    "@larksuiteoapi/node-sdk": "^1.60.0",
+    "sql.js": "^1.11.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.21.0",
+    "typescript": "^5.7.0"
+  }
+}
